@@ -1,0 +1,94 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to right bottom, #FFBB5C, #EF9595 , #C63D2F);
+    color: white;
+}
+
+.container{
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 30px 35px;
+    display: flex;
+    flex-direction: column;
+    background:transparent;
+    box-shadow: 8px 8px 8px black,0px 0px 0px black;
+}
+
+.container h1{
+    font-size: 1.5rem;
+    margin-block: 10px;
+    color: brown;
+    text-align: center;
+}
+
+.pbox{
+    background-color: white;
+    border: none;
+    outline: none;
+    padding: 10px;
+    width: 300px;
+    border-radius: 10px;
+    font-size: 20px;
+    margin-block: 10px;
+    text-overflow: ellipsis;
+}
+
+.inputbox{
+    position: relative;
+}
+
+.inputbox span{
+    position: absolute;
+    top: 16px;
+    right: 6px;
+    color: black;
+    font-size: 30px;
+    cursor: pointer;
+    z-index: 2;
+}
+
+.row{
+    display: flex;
+    margin-block: 10px;
+    color: brown;
+    font-weight: bold;
+}
+
+.row p,.row label{
+    flex-basis: 100%;
+    font-size: 15px;
+}
+
+.row input[type="checkbox"]
+{
+    width: 20px;
+    height: 20px;
+}
+
+.gbtn{
+    border: none;
+    outline: none;
+    background-color: blue;
+    padding: 20px,10px;
+    color: white;
+    margin-block: 10px;
+    font-weight: bolder;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.gbtn:hover{
+    background-color: #5FBDFF;
+}
